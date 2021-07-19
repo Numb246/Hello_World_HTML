@@ -1,0 +1,31 @@
+h1{
+    color: blue !important
+}
+
+p{
+    font-size: 16px;
+}
+
+.first {
+    color: forestgreen;
+}
+
+#block2.block{
+    color: crimson !important;
+}
+
+#block1.block2{
+    color: blueviolet !important;
+}
+
+*{
+    color: black;
+}
+
+p{
+    color: blueviolet;
+}
+
+.p{
+    color:crimson;
+}
