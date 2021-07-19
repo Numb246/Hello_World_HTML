@@ -5,20 +5,29 @@
         Hà Nội ghi nhận 18 ca COVID-19 mới, đều là F1 của các trường họp dương tính trước đó
     </title>
     <meta charset="utf-8">
+    <link rel = "stylesheet" href = "main.css">
     <!-- Phần thân -->
     <h1>Hà Nội ghi nhận 18 ca COVID-19 mới, đều là F1 của các trường hợp dương tính trước đó</h1>
-    <input name ="Tìm kiếm ..." type = "Text">
-    <button>Thich</button>
-    <button>Chia sẻ</button>
+    <style>
+        h1{
+            color: brown !important;
+        }
+    </style>
+    <!--Internal, External cái nào được sinh ra sau thì ưu tiên cái đó-->
+    <input name ="Tìm kiếm ..." type = "Text" value = "Tìm kiếm ...">
+    <button id = "block1" class = "block" class = "block2" style="color: chartreuse  !important">Thich</button>
+    <!--Có thể gọi id, class trong cùng 1 tag-->
+    <button id = "block2" class = "block">Chia sẻ</button>
+    <!--Độ ưu tiên:Incline: 1000 ID: 100, CLass: 10, Tag: 1-->
     <body>
-    <p><!--Hello World form HTML-->Suckhoedoisong.vn - Sáng nay, 18/7, Sở Y tế Hà Nội thông tin ghi nhận 18 trường hợp dương tính với SARS-CoV-2, trong đó có 16 F1 của các trường hợp xác định dương tính ngày 16-17/7 và 02 trường hợp F1 đã cách ly tập trung từ trước.</p>
+    <p class="p"><!--Hello World form HTML-->Suckhoedoisong.vn - Sáng nay, 18/7, Sở Y tế Hà Nội thông tin ghi nhận 18 trường hợp dương tính với SARS-CoV-2, trong đó có 16 F1 của các trường hợp xác định dương tính ngày 16-17/7 và 02 trường hợp F1 đã cách ly tập trung từ trước.</p>
     <p>Theo Sở Y tế Hà Nội, trong các trường hợp mới được ghi nhận có 10 trường hợp thuộc chùm ca bệnh liên quan đến chung cư Sunshine Palace, Hoàng Mai; 05 trường hợp tại Bùi Thị Xuân, Hai Bà Trưng; 02 trường hợp thuộc chùm ca bệnh liên quan đến TP. Hồ Chí Minh và 01 liên quan đến ổ dịch Tân Mai, Hoàng Mai.</p>
     <p>10 trường hợp thuộc chùm ca bệnh liên quan đến chung cư Sunshine Palace, Hoàng Mai gồm: Đống Đa: 06, Hai Bà Trưng: 02, Thanh Xuân: 01 và Bắc Từ Liêm: 01. Đó là các bệnh nhân:</p>
-    <ul>
-        <li> Bệnh nhân N. H. M, nữ, sinh năm 1998, ở Văn Hương, Hàng Bột, Đống Đa, tiếp xúc lần cuối với F0 ngày 17/7</li>
-        <li> Bệnh nhân B.T.H, nữ, sinh năm 1968, ở Linh Quang, Văn Chương, Đống Đa, tiếp xúc lần cuối với F0 ngày 10/7.</li>
-        <li> Bệnh nhân B.T.T.H, nữ, sinh năm 1973, ở Văn Hương, Đống Đa, tiếp xúc với F0 lần cuối ngày 17/7.</li>
-        <li> Bệnh nhân B.N.H, nữ, sinh năm 1993, ở Linh Quang, Văn Chương, Đống Đa, Hà Nội. Bệnh nhân có tiếp xúc với F0 đã được xác định dương tính ngày 16-17/7. Bệnh nhân có triệu chứng sốt, mệt mỏi, đau mỏi người từ ngày 9/7, ngày 17/7 được TTYT Đống Đa lấy mẫu xét nghiệm, kết quả dương tính với SARS-CoV-2.</li>
+    <ul class = "list1">
+        <li class = "list2"> Bệnh nhân N. H. M, nữ, sinh năm 1998, ở Văn Hương, Hàng Bột, Đống Đa, tiếp xúc lần cuối với F0 ngày 17/7</li>
+        <li class = "list2"> Bệnh nhân B.T.H, nữ, sinh năm 1968, ở Linh Quang, Văn Chương, Đống Đa, tiếp xúc lần cuối với F0 ngày 10/7.</li>
+        <li class = "list2"> Bệnh nhân B.T.T.H, nữ, sinh năm 1973, ở Văn Hương, Đống Đa, tiếp xúc với F0 lần cuối ngày 17/7.</li>
+        <li class = "list2"> Bệnh nhân B.N.H, nữ, sinh năm 1993, ở Linh Quang, Văn Chương, Đống Đa, Hà Nội. Bệnh nhân có tiếp xúc với F0 đã được xác định dương tính ngày 16-17/7. Bệnh nhân có triệu chứng sốt, mệt mỏi, đau mỏi người từ ngày 9/7, ngày 17/7 được TTYT Đống Đa lấy mẫu xét nghiệm, kết quả dương tính với SARS-CoV-2.</li>
     </ul>
     <img src = "https://media.suckhoedoisong.vn/Images/haiyen/2021/07/18/dt.jpg" alt = "Khu cách ly đặc biệt" >
     <ul>
@@ -29,7 +38,7 @@
         <li> Bệnh nhân T.T.M.H, nữ, sinh năm 1959, ở Nguyễn Khoái, Bạch Đằng, Hai Bà Trưng. Bệnh nhân tiếp xúc với F0 lần cuối ngày 10/7, được TTYT Hai Bà Trưng lấy mẫu xét nghiệm ngày 17/7, kết quả dương tính với SARS-CoV-2.</li>
         <li> Bệnh nhân P.H.M, nữ, sinh năm 1989, ở Minh Khai, Vĩnh Tuy, Hai Bà Trưng. Bệnh nhân là F1 của các F0 đã được công bố ngày 17/7, được TTYT Hai Bà Trưng lấy mẫu xét nghiệm ngày 17/7, kết quả dương tính với SARS-CoV-2.</li>
     </ul>
-        05 trường hợp liên quan đến ổ dịch Bùi Thị Xuân, Hai Bà Trưng gồm Hai Bà Trưng: 03, Thanh Xuân: 01, Long Biên: 01. Đó là các bệnh nhân:
+        <p>5 trường hợp liên quan đến ổ dịch Bùi Thị Xuân, Hai Bà Trưng gồm Hai Bà Trưng: 03, Thanh Xuân: 01, Long Biên: 01. Đó là các bệnh nhân:</p>
     <ul>
         <li>Bệnh nhân  P. X. T, nam,  sinh năm 1955, ở Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng. Bệnh nhân là F1 (chồng) của bệnh nhân N.T.P và bố của bệnh nhân P.X.H cùng địa chỉ được công bố dương tính tối hôm qua. Bệnh nhân tiếp xúc với các F0 lần cuối ngày 16/7. Bệnh nhân có triệu chứng sốt, đau mỏi người, mệt mỏi từ ngày 12/7. Ngày 17/7, vào Bệnh viện đa khoa Đức Giang được xét nghiệm cho kết quả dương tính với SARS-CoV-2.</li>
         <li>Bệnh nhân P.M.N, nữ, sinh năm 2003, ở Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng. Bệnh nhân là F1 (sống cùng nhà) với 03 trường hợp đã được xác định dương tính vào ngày 17-18/7, tiếp xúc lần cuối với các F0 ngày 16/7, được TTYT Hai Bà Trưng lấy mẫu xét nghiệm ngày 17/7, kết quả dương tính với SARS-CoV-2.</li>
@@ -48,10 +57,10 @@
     <h4>Bảng tóm tắt thông tin các bệnh nhân F1 có liên quan</h4>
     <table>
         <thead>
-            <th>Họ tên</th>
-            <th>Giới tính</th>
-            <th>Năm sinh</th>
-            <th>Địa chỉ</th>
+            <th class = "first">Họ tên</th>
+            <th class = "first">Giới tính</th>
+            <th class = "first">Năm sinh</th>
+            <th class = "first">Địa chỉ</th>
         </thead>
         <tbody>
             <tr>
